@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Galerija prekrasnih slika prirode i svakodnevnog života.">
+	<meta name="keywords" content="galerija, slike, fotografija, priroda, život, web dizajn">
+	<meta name="author" content="Ime i Prezime">
+	<title>Galerija Slika</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style_slike.css">
+</head>
+
+<body>
+
+	<header>
+		<h1 class="moving-title">Galerija slika</h1>
+	</header>
+
+	<nav>
+		<ul class="nav-menu">
+			<li><a href="index.html">Početna</a></li>
+			<li class="dropdown">
+				<a href="#">O nama</a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Naš tim</a></li>
+					<li><a href="#">Povijest</a></li>
+				</ul>
+			</li>
+			<li><a href="slike.html">Galerija</a></li>
+		</ul>
+	</nav>
+
+
+	<section class="galerija">
+		<h1>Galerija slika</h1>
+
+		<!-- putanja (href) u tagu a je drugačija kad se koristi lightbox od onoga kada želimo da se 
+					 otvori u novom tabu -->
+
+		<section class="gallery">
+			<a href="#img1">
+			  <figure>
+				<img src="img/slika1.jpg" alt="Slika 1" loading="lazy">
+				<figcaption>Slika 1</figcaption>
+			  </figure>
+			</a>
+		
+			<a href="#img2">
+			  <figure>
+				<img src="img/slika2.jpg" alt="Slika 2" loading="lazy">
+				<figcaption>Opis slike 2</figcaption>
+			  </figure>
+			</a>
+		</section>
+		
+		  <article class="lightbox" id="img1">
+			<a href="#!" class="close" aria-label="Zatvori prikaz">&times;</a>
+			<img src="img/slika1.jpg" alt="Opis slike 1">
+		  </article>
+		
+		  <article class="lightbox" id="img2">
+			<a href="#!" class="close" aria-label="Zatvori prikaz">&times;</a>
+			<img src="img/slika2.jpg" alt="Opis slike 2">
+		  </article>
+
+		<figure class="galerija_slika">
+			<a class="image-popup-vertical-fit" href="https://unsplash.it/900/?random=1" title="1.jpg">
+				<img src="https://unsplash.it/300/200?random=1" loading="lazy" alt="Slika 1">
+			</a>
+			<figcaption>Slika 1</figcaption>
+		</figure>
+
+		<figure class="galerija_slika">
+			<a class="image-popup-vertical-fit" href="https://unsplash.it/900/?random=2" title="2.jpg">
+				<img src="https://unsplash.it/300/200?random=2" loading="lazy" alt="Slika 2">
+			</a>
+			<figcaption>Slika 2</figcaption>
+		</figure>
+
+		<figure class="galerija_slika">
+			<a class="image-popup-vertical-fit" href="https://unsplash.it/900/?random=3" title="3.jpg">
+				<img src="https://unsplash.it/300/200?random=3" loading="lazy" alt="Slika 3">
+			</a>
+			<figcaption>Slika 3</figcaption>
+		</figure>
+
+		<figure class="galerija_slika">
+			<a class="image-popup-vertical-fit" href="https://unsplash.it/900/?random=4" title="4.jpg">
+				<img src="https://unsplash.it/300/200?random=4" loading="lazy" alt="Slika 4">
+			</a>
+			<figcaption>Slika 4</figcaption>
+		</figure>
+
+		<figure class="galerija_slika">
+			<a class="image-popup-vertical-fit" href="https://unsplash.it/900/?random=5" title="5.jpg">
+				<img src="https://unsplash.it/300/200?random=5" loading="lazy" alt="Slika 5">
+			</a>
+			<figcaption>Slika 5</figcaption>
+		</figure>
+
+		<figure class="galerija_slika">
+			<a class="image-popup-vertical-fit" href="https://unsplash.it/900/?random=6" title="6.jpg">
+				<img src="https://unsplash.it/300/200?random=6" loading="lazy" alt="Slika 6">
+			</a>
+			<figcaption>Slika 6</figcaption>
+		</figure>
+
+		<figure class="galerija_slika">
+			<a class="image-popup-vertical-fit" href="https://unsplash.it/900/?random=7" title="7.jpg">
+				<img src="https://unsplash.it/300/200?random=7" loading="lazy" alt="Slika 7">
+			</a>
+			<figcaption>Slika 7</figcaption>
+		</figure>
+
+		<figure class="galerija_slika">
+			<a class="image-popup-vertical-fit" href="https://unsplash.it/900/?random=8" title="8.jpg">
+				<img src="https://unsplash.it/300/200?random=8" loading="lazy" alt="Slika 8">
+			</a>
+			<figcaption>Slika 8</figcaption>
+		</figure>
+
+		<figure class="galerija_slika">
+			<a class="image-popup-vertical-fit" href="https://unsplash.it/900/?random=9" title="9.jpg">
+				<img src="https://unsplash.it/300/200?random=9" loading="lazy" alt="Slika 9">
+			</a>
+			<figcaption>Slika 9</figcaption>
+		</figure>
+
+		<figure class="galerija_slika">
+			<a class="image-popup-vertical-fit" href="https://unsplash.it/900/?random=10" title="10.jpg">
+				<img src="https://unsplash.it/300/200?random=10" loading="lazy" alt="Slika 10">
+			</a>
+			<figcaption>Slika 10</figcaption>
+		</figure>
+
+		<figure class="galerija_slika">
+			<a class="image-popup-vertical-fit" href="https://unsplash.it/900/?random=11" title="11.jpg">
+				<img src="https://unsplash.it/300/200?random=11" loading="lazy" alt="Slika 11">
+			</a>
+			<figcaption>Slika 11</figcaption>
+		</figure>
+
+		<figure class="galerija_slika">
+			<a class="image-popup-vertical-fit" href="https://unsplash.it/900/?random=12" title="12.jpg">
+				<img src="https://unsplash.it/300/200?random=12" loading="lazy" alt="Slika 12">
+			</a>
+			<figcaption>Slika 12</figcaption>
+		</figure>
+
+		<figure class="galerija_slika">
+			<a class="image-popup-vertical-fit" href="https://unsplash.it/900/?random=13" title="13.jpg">
+				<img src="https://unsplash.it/300/200?random=13" loading="lazy" alt="Slika 13">
+			</a>
+			<figcaption>Slika 13</figcaption>
+		</figure>
+
+		<figure class="galerija_slika">
+			<a class="image-popup-vertical-fit" href="https://unsplash.it/900/?random=14" title="14.jpg">
+				<img src="https://unsplash.it/300/200?random=14" loading="lazy" alt="Slika 14">
+			</a>
+			<figcaption>Slika 14</figcaption>
+		</figure>
+
+		<figure class="galerija_slika">
+			<a class="image-popup-vertical-fit" href="https://unsplash.it/900/?random=15" title="15.jpg">
+				<img src="https://unsplash.it/300/200?random=15" loading="lazy" alt="Slika 15">
+			</a>
+			<figcaption>Slika 15</figcaption>
+		</figure>
+
+		<figure class="galerija_slika">
+			<a class="image-popup-vertical-fit" href="https://unsplash.it/900/?random=16" title="16.jpg">
+				<img src="https://unsplash.it/300/200?random=16" loading="lazy" alt="Slika 16">
+			</a>
+			<figcaption>Slika 16</figcaption>
+		</figure>
+
+
+
+	</section>
+
+	<footer>
+		<p>&copy; 2025. Web Programiranje. Sva prava pridržana.</p>
+	</footer>
+
+</body>
+
+</html>
