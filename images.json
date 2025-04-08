@@ -1,10 +1,22 @@
 [
   {
-    "url": "/images/slika1.jpg",
+    "url": "/images/sample-1.svg",
     "title": "Slika 1"
   },
   {
-    "url": "/images/slika2.jpg",
+    "url": "/images/sample-2.svg",
     "title": "Slika 2"
+  },
+  {
+    "url": "/images/sample-3.svg",
+    "title": "Slika 3"
+  },
+  {
+    "url": "/images/sample-4.svg",
+    "title": "Slika 4"
+  },
+  {
+    "url": "/images/sample-5.svg",
+    "title": "Slika 5"
   }
 ]
